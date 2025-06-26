@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+/build/
+/dist/
+
+# React
+*.local
+*.cache
+
+# VSCode
+.vscode/
+
+# Backend
+/desi-etsy-backend/node_modules/
+/desi-etsy-backend/.env
+/desi-etsy-backend/logs/
+/desi-etsy-backend/*.log
+
+# Frontend
+/desi-etsy-frontend/node_modules/
+/desi-etsy-frontend/.env
+/desi-etsy-frontend/build/
+/desi-etsy-frontend/dist/
+/desi-etsy-frontend/logs/
+/desi-etsy-frontend/*.log
+
+# Uploads (optional, comment out if you want to keep uploads in git)
+/desi-etsy-backend/uploads/ 
